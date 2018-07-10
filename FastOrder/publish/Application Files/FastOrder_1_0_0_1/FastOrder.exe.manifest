@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FastOrder.exe" version="1.0.0.1" publicKeyToken="3b5d79d1876f56b7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FastOrder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FastOrder.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FastOrder.exe" size="18880">
+      <assemblyIdentity name="FastOrder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SxAhq7YNUMMzsFEs3/sOPuUPcq46otoUhpRpMcB+EXI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FastOrder.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SMOL-VAIO\zibo9" issuerKeyHash="67c6e241fa9523e53e7c5eb0f7ea5b5a8fcec271" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xhZS505uQYb31s8EAgNfzd0du8qktINTKpacbsSbRe4=</DigestValue></Reference></SignedInfo><SignatureValue>s4pgrB0ngStbYZKmjt/biYpap1RDiAMMJs+GaPGe5lYdPSkkI4CdqCfP685PTTjGoRwvVfDLqiKVT+FxuG3a+5dHyeILgq5hdCFLhKI1QFWTKYH0sIWUj2JFCxkCQC2twIAQeQTugnQMvV7H7iGpwWVvGAlUXcEr88izcrZGx8k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4X9Qb6LxYIBtDShLhOLQUg2Lt+0o2gmzlW88B0248p0iRliEKu1IgxNnJ+Va9V9eeUUQ0YN5syZttgkdIzKTjyaRqbVd6x7F3YEk7fR40qco0yGO9r5houYS707hdBdq4RpaY1gRBwwE5smpMWxY2AbFfvNCrE+Ur/6JuHV3pHk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ee459bc46e9c962a5383b4a4cabb1dddcd5f030204cfd6f786416e4ee75216c6" Description="" Url=""><as:assemblyIdentity name="FastOrder.exe" version="1.0.0.1" publicKeyToken="3b5d79d1876f56b7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SMOL-VAIO\zibo9</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>b9gG44XwcLQe/uAFplod+5xlSn/sMZlP0BtyiuJlqgc=</DigestValue></Reference></SignedInfo><SignatureValue>dn7Kn/BsgDHhY/DMxWidKZefjkDjwILF2qvsq3cYhZKhoyQX5lBBgC+ifzzkXCkA0hzvL6sP2QZmYa2jqmPUmhlmipf1Agoj0eUOT6yinbazIKDzQL8iByc3ZcXA/zuPkWwFWGti6r6Bz06e7l+IFqftB3pOuyDAXOjkb/vMPxE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4X9Qb6LxYIBtDShLhOLQUg2Lt+0o2gmzlW88B0248p0iRliEKu1IgxNnJ+Va9V9eeUUQ0YN5syZttgkdIzKTjyaRqbVd6x7F3YEk7fR40qco0yGO9r5houYS707hdBdq4RpaY1gRBwwE5smpMWxY2AbFfvNCrE+Ur/6JuHV3pHk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQOCmMPK+vVoJEUsVHZlpA1jANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AUwBNAE8ATAAtAFYAQQBJAE8AXAB6AGkAYgBvADkwHhcNMTgwNjE2MTAyMTU0WhcNMTkwNjE2MTYyMTU0WjApMScwJQYDVQQDHh4AUwBNAE8ATAAtAFYAQQBJAE8AXAB6AGkAYgBvADkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOF/UG+i8WCAbQ0oS4Ti0FINi7ftKNoJs5VvPAdNuPKdIkZYhCrtSIMTZyflWvVfXnlFENGDebMmbbYJHSMyk48mkam1Xesexd2BJO30eNKnKNMhjva+YaLmEu9O4XQXauEaWmNYEQcMBObJqTFsWNgGxX7zQqxPlK/+ibh1d6R5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAJefrg/xWfwZHc7+qSNTgFU8U/1KuxZy/KWpm4d4ra22Z6P9XFd4p3u73gn+3hAjFAONoV+5GqGVf4XLOYPEotRy+7X2exN/GvFHZmE5M9mEbxm60i1EcVzW+7/ad0g3ENVZ90kkTYI3iK7X/FV3ZjlOfwfpquzUQDbAP2a44iDU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

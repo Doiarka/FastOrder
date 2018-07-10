@@ -1,0 +1,28 @@
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\bin\Debug\FastOrder.exe.config
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\bin\Debug\FastOrder.exe
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\bin\Debug\FastOrder.pdb
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\obj\Debug\FastOrder.csprojAssemblyReference.cache
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\obj\Debug\FastOrder.Form1.resources
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\obj\Debug\FastOrder.Properties.Resources.resources
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\obj\Debug\FastOrder.csproj.GenerateResource.cache
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\obj\Debug\FastOrder.csproj.CoreCompileInputs.cache
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\obj\Debug\FastOrder.exe
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\obj\Debug\FastOrder.pdb
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\bin\Debug\FastOrder.exe.manifest
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\bin\Debug\FastOrder.application
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\obj\Debug\FastOrder.exe.manifest
+C:\Users\zibo9\source\repos\FastOrder\FastOrder\obj\Debug\FastOrder.application
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\bin\Debug\FastOrder.exe.config
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\bin\Debug\FastOrder.exe.manifest
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\bin\Debug\FastOrder.application
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\bin\Debug\FastOrder.exe
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\bin\Debug\FastOrder.pdb
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\obj\Debug\FastOrder.csprojAssemblyReference.cache
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\obj\Debug\FastOrder.Form1.resources
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\obj\Debug\FastOrder.Properties.Resources.resources
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\obj\Debug\FastOrder.csproj.GenerateResource.cache
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\obj\Debug\FastOrder.csproj.CoreCompileInputs.cache
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\obj\Debug\FastOrder.exe.manifest
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\obj\Debug\FastOrder.application
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\obj\Debug\FastOrder.exe
+C:\Users\zibo9\Google Drive\VSProjects\FastOrder\FastOrder\obj\Debug\FastOrder.pdb
